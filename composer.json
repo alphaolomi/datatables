@@ -50,7 +50,8 @@
             "@php artisan key:generate --ansi"
         ],
         "format": "vendor/bin/php-cs-fixer fix  --config=.php-cs-fixer.dist.php --allow-risky=yes",
-        "test": "vendor/bin/pest"
+        "test": "vendor/bin/pest",
+        "analyse": "vendor/bin/phpstan analyse"
     },
     "extra": {
         "laravel": {
