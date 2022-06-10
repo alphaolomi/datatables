@@ -1,6 +1,6 @@
 # Laravel with Datatable
 
-DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, built upon the foundations of progressive enhancement, that adds all of ...
+[DataTables](https://datatables.net) is a table enhancing plug-in for the jQuery Javascript library, adding sorting, paging and filtering abilities to plain HTML tables with minimal effort.It is a highly flexible tool, built upon the foundations of progressive enhancement, that adds all of functionality without the need to write any JavaScript code.
 
 ## Getting started
 
@@ -19,9 +19,8 @@ php artisan serve
 
 ## Features
 
--   [x] Datatable
-    -   [x] Datatable with Ajax
-    -   [x] Datatable with Server-side
+-   [x] Users Index page with Datatable
+    -   [x] With Server-side processing and Ajax
     -   [x] Searching
     -   [x] Sorting
     -   [x] Paging
@@ -31,6 +30,7 @@ php artisan serve
     -   [x] Update
     -   [x] Delete
 -   [ ] Tests
+-   [ ] Your feature
 
 ## Technology
 
