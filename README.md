@@ -2,6 +2,8 @@
 
 [DataTables](https://datatables.net) is a table enhancing plug-in for the jQuery Javascript library, adding sorting, paging and filtering abilities to plain HTML tables with minimal effort.It is a highly flexible tool, built upon the foundations of progressive enhancement, that adds all of functionality without the need to write any JavaScript code.
 
+Learn more about DataTables [here](https://datatables.net/).
+
 ## Getting started
 
 ```sh
@@ -24,20 +26,20 @@ php artisan serve
     -   [x] Searching
     -   [x] Sorting
     -   [x] Paging
--   [x] CRUD
-    -   [x] Create
-    -   [x] Read
-    -   [x] Update
-    -   [x] Delete
+-   [ ] CRUD
+    -   [ ] Create
+    -   [ ] Read
+    -   [ ] Update
+    -   [ ] Delete
 -   [ ] Tests
 -   [ ] Your feature
 
 ## Technology
 
 -   Laravel v9
+-   Laravel Datatables for Server side processing
 -   jQuery
 -   Styling: Boostrap v5
--   Laravel Datatables
 
 ## Code quality
 
