@@ -7,7 +7,10 @@ it('has users page', function () {
     $response = $this->get('/users');
 
     $response->assertStatus(200);
+    $response->assertViewIs('users.index');
     $response->assertSee('Users');
+    // assert page has DT scripts
+    $response->assertSee('LaravelDataTables');
 });
 
 it('can get users data ajax | basic', function () {
