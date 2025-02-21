@@ -4,7 +4,6 @@
 
 Learn more about DataTables [here](https://datatables.net/).
 
-![demo](./public/img/demo.png)
 
 ## Getting started
 
@@ -23,7 +22,7 @@ php artisan serve
 
 ## Features
 
--   [x] Users Index page with Datatable
+-   [x] Users Index page with DataTable
     -   [x] With Server-side processing and Ajax
     -   [x] Searching
     -   [x] Sorting
@@ -33,18 +32,18 @@ php artisan serve
     -   [ ] Read
     -   [ ] Update
     -   [ ] Delete
--   [ ] Tests
-    - [ ] Authentication
+-   [x] Tests
+    - [x] Authentication
     - [x] Users page with DT
     - [x] Users Model with date casting
 -   [ ] Your feature
 
 ## Technology
 
--   Laravel v9
--   Laravel Datatables for Server side processing
--   jQuery
--   Styling: Boostrap v5
+-   Laravel v10
+-   DataTables with  Server Side Processing
+-   Frontend: jQuery v4
+-   Styling: Bootstrap v5
 
 ## Code quality
 
@@ -53,7 +52,7 @@ php artisan serve
 
 ## Testing
 
-Using [Pest]() framework
+Using [Pest](https://pestphp.com/docs/) framework
 
 ```
 php artisan test
