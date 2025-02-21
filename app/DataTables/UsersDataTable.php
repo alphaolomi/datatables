@@ -43,7 +43,7 @@ class UsersDataTable extends DataTable
                     ->setTableId('users-table')
                     ->columns($this->getColumns())
                     ->minifiedAjax()
-                    //->dom('Bfrtip')
+                    // ->dom('Bfrtip')
                     ->orderBy(1)
                     ->selectStyleSingle()
                     ->buttons([
@@ -62,16 +62,17 @@ class UsersDataTable extends DataTable
     public function getColumns(): array
     {
         return [
-            // Column::computed('action')
-            //       ->exportable(false)
-            //       ->printable(false)
-            //       ->width(60)
-            //       ->addClass('text-center'),
+         
             Column::make('id'),
             Column::make('name'),
             Column::make('email'),
             Column::make('created_at'),
-            Column::make('updated_at'),
+            // Column::make('updated_at'),
+            Column::computed('action')
+            ->exportable(false)
+            ->printable(false)
+            ->width(140)
+            ->addClass('text-center'),
         ];
     }
 
